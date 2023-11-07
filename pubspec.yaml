@@ -4,6 +4,7 @@ version: 0.4.0
 homepage: https://github.com/TesteurManiak/flutter_map_animations
 repository: https://github.com/TesteurManiak/flutter_map_animations
 issue_tracker: https://github.com/TesteurManiak/flutter_map_animations/issues
+publish_to: none
 topics:
   - flutter_map
   - map
@@ -15,7 +16,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_map: ^5.0.0
+  flutter_map:
+    git:
+      url: https://github.com/robpot95/flutter_map.git
+      ref: main
   latlong2: ^0.9.0
 
 dev_dependencies:
